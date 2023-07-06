@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+  }
+  
+  nav {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 0, 0, 1) 56%,
+      rgba(6, 76, 91, 1) 100%
+    );
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  }
+  .grandparent_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border: 1px solid whitesmoke;
+    border-bottom: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 0, 0, 1) 56%,
+      rgba(23, 35, 37, 0.979) 100%
+    );
+    margin-bottom: 0;
+    /* grid-auto-flow: column; */
+    z-index: -1;
+  }
+  .parent_div {
+    margin: 20px 20px;
+    display: flex;
+    outline: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  img {
+    margin: 10px 10px 5px 10px;
+    width: 200px;
+  }
+  .img {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .para {
+    width: 50%;
+    text-align: center;
+    padding: 6% 20px;
+    color: white;
+    font-size: 16px;
+  }
+  footer{
+    margin: 0px .04%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 0, 0, 1) 56%,
+      rgba(23, 35, 37, 0.979) 100%
+    );
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font: size 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  @media screen and (max-width:768px) {
+    .grandparent_div{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        gap:15px;
+    }
+    img{
+        width:150px;
+        object-fit: cover;
+    } 
+    p{
+        text-align: center;
+        font-size: xx-small;
+    }
+  }
+  @media screen and (min-width:768px ) and (max-width:1000px) {
+    .grandparent_div{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        gap:15px;
+    } 
+    img{
+        width: 200px;
+        object-fit: cover;
+    }
+    p{
+        text-align: center;
+        font-size: large;
+    }
+  }
