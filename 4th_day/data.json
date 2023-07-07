@@ -1,0 +1,23 @@
+{
+    "data":[
+        {
+            "image":"https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL400_.jpg",
+            "title":"one plus",
+            "rating":"5/5",
+            "price":"2000"
+        },
+        {
+            "image":"https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL400_.jpg",
+            "title":"one plus",
+            "rating":"5/5",
+            "price":"2000"
+        },
+        {
+            "image":"https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL400_.jpg",
+            "title":"one plus",
+            "rating":"5/5",
+            "price":"2000"
+        }
+    ],
+    "users":[]
+}
