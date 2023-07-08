@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "image": "https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "One Plus Nord",
+      "rating": "5/5",
+      "price": "1000 rs."
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "One Plus Nord",
+      "rating": "5/5",
+      "price": "1000 rs."
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "One Plus Nord",
+      "rating": "5/5",
+      "price": "1000 rs."
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61QRgOgBx0L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "One Plus Nord",
+      "rating": "5/5",
+      "price": "1000 rs."
+    }
+  ],
+  "users": [
+    {
+      "email": "sarunnani@gmail.com",
+      "name": "sarun",
+      "password": "123456",
+      "id": 1
+    }
+  ]
+}

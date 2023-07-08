@@ -1,0 +1,21 @@
+#child_div img {
+  width: 50%;
+}
+#empty_div {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+#empty_div div {
+  margin: auto;
+  border: 1px solid black;
+}
+#data_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+#data_div div {
+  border: 2px solid grey;
+}
